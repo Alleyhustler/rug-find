@@ -58,7 +58,7 @@ async function generateCharacterDataFromApi(nameFromApi, nftImage) {
     const response = await fetch('https://api.openai.com/v1/chat/completions', {
       method: 'POST',
       headers: {
-        'Authorization': 'Bearer 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',
+        'Authorization': ',
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
